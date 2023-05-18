@@ -1,0 +1,66 @@
+#contact{
+  border: 1px solid black;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  background-color: #C9D6FF;
+  font-family: Pacifico, cursive, Cookie, Poppins, sans-serif;
+  
+}
+
+#content{
+  width:90%;
+  height:90%;
+  /*border: 1px solid black;*/
+  margin-top: 25px;
+  margin-left:35px;
+  position: relative;
+  background-color: #E2E2E2;
+
+}
+
+#content-text{
+  width: 400px;
+  height: 90px;
+  position: absolute;
+  top: 4%;
+  left: 15%;
+  text-align: center;
+}
+
+#form {
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left:15%;
+}
+
+#form p{
+  margin: 10px 0px;
+}
+
+input[type=email] {
+  width: 400px;
+  height: 23px;
+  border: 1px solid black;
+  border-radius:5px;
+  margin-top:5px;
+}
+
+textarea{
+  width: 400px;
+  border-radius:5px;
+  margin-bottom: 8px;
+  border: 1px solid black;
+}
+
+input[type=submit] {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  left: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+  font-family: Pacifico, Cookie, Poppins;
+}
